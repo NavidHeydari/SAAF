@@ -2,7 +2,11 @@
     "callWithCLI": true,
     "callAsync": false,
     "memorySettings": [],
-    "payloads": [{}],
+    "payloads": [
+        { "name": 10 }, 
+        { "name": 11 }, 
+        { "name": 12 }
+    ],
 
     "runs": 100,
     "threads": 100,
@@ -10,7 +14,7 @@
     "sleepTime": 5,
     "randomSeed": 42,
 
-    "outputGroups": [],
+    "outputGroups": ["cpuType", "containerID", "vmID", "zAll"],
     "outputRawOfGroup": [],
     "showAsList": [],
     "showAsSum": ["newcontainer"],
@@ -27,7 +31,7 @@
     "removeDuplicateContainers": false,
     "overlapFilter": "functionName",
 
-    "openCSV": false,
+    "openCSV": true,
     "combineSheets": false,
     "warmupBuffer": 0
 } 
