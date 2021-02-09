@@ -1,6 +1,6 @@
 {
 	"function": "FunctionTest1",
-    "platform": "HTTP",
+    "platform": "AWS Lambda",
     "source": "../java_template",
     "endpoint": "https://wlg6bdz050.execute-api.us-west-2.amazonaws.com/hello_dev/"
 }

@@ -3,18 +3,16 @@
     "callAsync": false,
     "memorySettings": [],
     "payloads": [
-        { "name": 10 }, 
-        { "name": 11 }, 
-        { "name": 12 }
+        { "name": 100000 }
     ],
 
-    "runs": 100,
-    "threads": 100,
+    "runs": 50,
+    "threads": 50,
     "iterations": 1,
     "sleepTime": 5,
     "randomSeed": 42,
 
-    "outputGroups": ["cpuType", "containerID", "vmID", "zAll"],
+    "outputGroups": ["cpuType", "containerID", "vmID","newcontainer", "zAll"],
     "outputRawOfGroup": [],
     "showAsList": [],
     "showAsSum": ["newcontainer"],
