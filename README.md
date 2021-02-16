@@ -147,3 +147,10 @@ FaaS Runner is a tool used to create, execute, and automate experiments on FaaS 
 This material is based upon work supported by the National Science Foundation under Grant Number ([OAC-1849970](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1849970&HistoricalAwards=false)).
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
+``` executing In EC2 Machine
+first need the TMUX and the a script to execute accuratly using the sleep and loop. @see EecuteTakePsudoCron.py
+and then using & to put that execution in background check with jobs and make sure it's running properly in background
+then use TMUX or Screen to detach the execution processes and then logout from SSH.
+
