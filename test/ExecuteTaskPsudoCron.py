@@ -12,7 +12,7 @@ import os
 
 def things_to_do():
     
-    interval_to_sec = 15 * 60
+    interval_to_sec = 10 * 60
     while True:
         sleep(interval_to_sec - time() %  60 )
         print(str(datetime.now()))
